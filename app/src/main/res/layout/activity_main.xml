@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Nombre"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_centerHorizontal="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Nombretexto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Nombre"
+                    android:inputType="text"
+                    android:ems="15"
+                    android:singleLine="true"
+                    android:gravity="center_horizontal">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/Fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Nombre"
+                android:text="@string/Fecha"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Telefono"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/Fecha">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Telefonotexto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Telefono"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:gravity="center_horizontal">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Correo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/Telefono">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Correotexto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Correo"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:gravity="center_horizontal">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Descripcion"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="175dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/Correo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Descripciontexto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Descripcion"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:gravity="center_horizontal">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/BotonSiguiente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="75dp"
+                android:layout_marginBottom="0dp"
+                android:text="@string/BotonSiguiente" />
+
+
+        </RelativeLayout>
+
+</RelativeLayout>

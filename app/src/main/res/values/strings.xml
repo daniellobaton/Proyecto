@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Proyecto</string>
+
+    <string name="Nombre">Nombre</string>
+    <string name="Fecha">Selecciona su fecha de nacimiento: </string>
+    <string name="Telefono">Teléfono</string>
+    <string name="Correo">E - mail</string>
+    <string name="Descripcion">Descripción del Contacto</string>
+    <string name="BotonSiguiente">Siguiente</string>
+
+    <string name="ConfirmaDatos">Confirmar Datos</string>
+    <string name="BotonEditar">Editar Datos</string>
+    <string name="FechaNac">Fecha de Nacimiento: </string>
+    <string name="Tel">Teléfono: </string>
+    <string name="Email">E-mail: </string>
+    <string name="Descripcion2">Descripción: </string>
+
+</resources>

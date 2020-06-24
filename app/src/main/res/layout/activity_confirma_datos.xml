@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConfirmaDatos">
+
+    <TextView
+        android:id="@+id/Titulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="@string/ConfirmaDatos"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/PutNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14dp"
+        android:layout_below="@+id/Titulo2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="75dp"/>
+
+    <TextView
+        android:id="@+id/PutFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FechaNac"
+        android:textSize="14dp"
+        android:layout_below="@+id/PutNombre"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="75dp"/>
+
+    <TextView
+        android:id="@+id/PutTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tel"
+        android:textSize="14dp"
+        android:layout_below="@+id/PutFecha"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="75dp"/>
+
+    <TextView
+        android:id="@+id/PutEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Email"
+        android:textSize="14dp"
+        android:layout_below="@+id/PutTel"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="75dp"/>
+
+    <TextView
+        android:id="@+id/PutDescripcion"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:text="@string/Descripcion2"
+        android:textSize="14dp"
+        android:layout_below="@+id/PutEmail"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="75dp"/>
+
+    <Button
+        android:id="@+id/BotonEditar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/BotonEditar"
+        android:textSize="16dp"
+        android:layout_below="@id/PutDescripcion"/>
+
+</RelativeLayout>
